@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 import "./header.css";
 
 const Header = () => {
@@ -6,43 +7,55 @@ const Header = () => {
   return (
     <header className="header">
         <nav className="nav container">
-            <a href="#" className="nav__logo">Soumallya</a>
+            <a className="nav__logo"><Link activeClass="active" to="home" spy={true} smooth={true}>Soumallya</Link></a>
 
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list grid">
                     <li className="nav__item">
-                        <a href="#home" className="nav__link active-link">
-                            <i className="uil uil-estate nav__icon"></i> Home
+                        <a className="nav__link active-link">
+                            <Link activeClass="active" to="home" spy={true} smooth={true}>
+                                <i className="uil uil-estate nav__icon"></i> Home
+                            </Link>
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#about" className="nav__link">
-                            <i className="uil uil-user nav__icon"></i> About
+                        <a className="nav__link">
+                            <Link activeClass="active" to="about" spy={true} smooth={true}>
+                                <i className="uil uil-estate nav__icon"></i> About
+                            </Link>
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#skills" className="nav__link">
-                            <i className="uil uil-file-alt nav__icon"></i> Skills
+                        <a className="nav__link">
+                            <Link activeClass="active" to="skills" spy={true} smooth={true}>
+                                <i className="uil uil-estate nav__icon"></i> Skills
+                            </Link>
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#services" className="nav__link">
-                            <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                        <a className="nav__link">
+                            <Link activeClass="active" to="services" spy={true} smooth={true}>
+                                <i className="uil uil-estate nav__icon"></i> Services
+                            </Link>
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#portfolio" className="nav__link">
-                            <i className="uil uil-scenery nav__icon"></i> Portfolio
+                        <a className="nav__link">
+                            <Link activeClass="active" to="portfolio" spy={true} smooth={true}>
+                                <i className="uil uil-estate nav__icon"></i> Portfolio
+                            </Link>
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#contact" className="nav__link">
-                            <i className="uil uil-message nav__icon"></i> Contact
+                        <a className="nav__link">
+                            <Link activeClass="active" to="contact" spy={true} smooth={true}>
+                                <i className="uil uil-estate nav__icon"></i> Contact
+                            </Link>
                         </a>
                     </li>
                 </ul>
