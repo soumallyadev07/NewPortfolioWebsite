@@ -17,7 +17,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-code-branch services__icon"></i>
                     <h3 className="services__title">
-                        Software <br/> Developer
+                        Software <br/> Engineering
                     </h3>
                 </div>
 
@@ -30,7 +30,7 @@ const Services = () => {
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
                         <h3 className="services__modal-title">
-                            Software Developer
+                            Software Engineering
                         </h3>
 
                         <p className="services__modal-description">More than 2 years of experience while working with numerous startups and organizations. Providing quality work and learning with each experience.</p>
@@ -64,7 +64,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-arrow services__icon"></i>
                     <h3 className="services__title">
-                        UI/UX <br/> Designer
+                        UI/UX <br/> Development
                     </h3>
                 </div>
 
@@ -77,7 +77,7 @@ const Services = () => {
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
                         <h3 className="services__modal-title">
-                            UI/UX Designer
+                            UI/UX Development
                         </h3>
 
                         <p className="services__modal-description">More than 2 years of experience while working with numerous startups and organizations. Providing quality work and learning with each experience.</p>
@@ -111,7 +111,7 @@ const Services = () => {
                 <div>
                     <i className="uil uil-edit services__icon"></i>
                     <h3 className="services__title">
-                        Visual <br/> Designer
+                        Product <br/> Designing
                     </h3>
                 </div>
 
@@ -124,7 +124,7 @@ const Services = () => {
                         <i onClick={() => toggleTab(0)} className="uil uil-times services__modal-close"></i>
 
                         <h3 className="services__modal-title">
-                            Visual Designer
+                            Product Designing
                         </h3>
 
                         <p className="services__modal-description">More than 2 years of experience while working with numerous startups and organizations. Providing quality work and learning with each experience.</p>

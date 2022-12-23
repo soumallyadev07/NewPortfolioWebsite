@@ -115,7 +115,7 @@ const Qualifications = () => {
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                Jan '22 - Present
+                                 Jan '22 - Present
                             </div>
                         </div>
 
@@ -141,7 +141,7 @@ const Qualifications = () => {
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                Apr '21 - Jun '21
+                                 Apr '21 - Jun '21
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@ const Qualifications = () => {
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                Dec '20 - Mar '21
+                                 Dec '20 - Mar '21
                             </div>
                         </div>
 
@@ -180,7 +180,7 @@ const Qualifications = () => {
                             </span>
                             <div className="qualification__calender">
                                 <i className="uil uil-calendar-alt"></i>
-                                Nov '20 - Jan '21
+                                 Nov '20 - Jan '21
                             </div>
                         </div>
                     </div>
