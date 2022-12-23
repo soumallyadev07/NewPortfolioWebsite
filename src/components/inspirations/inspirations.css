@@ -12,7 +12,7 @@
 
 .inspiration__img {
     width: 60px;
-    border-radius: 3rem;
+    border-radius: 1rem;
     margin-bottom: var(--mb-1);
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -20,6 +20,36 @@
 }
 
 .inspiration__img:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+
+.inspiration__img-artist {
+    width: 47px;
+    border-radius: 2rem;
+    margin-bottom: var(--mb-1);
+    margin-left: var(--mb-3);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 1s ease-in-out;
+    animation: profile__animate 6s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate {
+    0% {
+        border-radius: 40% 60% 30% 70%/40% 30% 70% 60%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 40% 60% 30% 70%/40% 30% 70% 60%;
+    }
+}
+
+.inspiration__img-artist:hover {
     filter: none;
     -webkit-filter: none;
 }
@@ -32,6 +62,15 @@
 
 .inspiration__description {
     font-size: var(--small-font-size);
+}
+
+.inspiration__description .artistName {
+    color: var(--title-color);
+}
+
+.inspiration__description-small {
+    font-size: var(--tiny-font-size);
+    font-style: italic;
 }
 
 /* Swiper class */
