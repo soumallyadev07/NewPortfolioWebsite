@@ -45,8 +45,8 @@ const Header = () => {
 
                     <li className="nav__item">
                         <a className="nav__link">
-                            <Link activeClass="active" to="portfolio" spy={true} smooth={true}>
-                                <i className="uil uil-estate nav__icon"></i> Portfolio
+                            <Link activeClass="active" to="projects" spy={true} smooth={true}>
+                                <i className="uil uil-estate nav__icon"></i> Projects
                             </Link>
                         </a>
                     </li>

@@ -1,0 +1,108 @@
+.projects__container {
+    grid-template-columns: repeat(3, 270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+}
+
+.projects__content {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--container-color);
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+}
+
+.projects__icon {
+    display: block;
+    font-size: 2rem;
+    color: var(--title-color);
+    margin-bottom: var(--mb-1);
+}
+
+.projects__img__div {
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.projects__img {
+    border-radius: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: var(--mb-1);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 1s all ease-in-out;
+}
+
+.projects__img:hover {
+    filter: none;
+    -webkit-filter: none;
+    transform: scale(1.05);
+}
+
+.projects__title {
+    font-size: var(--h4-font-size);
+    margin-bottom: 0.10rem;
+    font-weight: var(--font-medium);
+}
+
+.project__description-small {
+    font-size: var(--tiny-font-size);
+    font-style: italic;
+}
+
+.projects__button {
+    color: var(--title-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.25rem;
+    cursor: pointer;
+}
+
+.projects__button-icon {
+    font-size: 1rem;
+    transition: .3s;
+}
+
+.projects__button:hover .projects__button-icon {
+    transform: translateX(00.25rem);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .projects__container {
+        grid-template-columns: repeat(3, 218px);
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .projects__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects__content {
+        padding: 1.5rem 1.5rem 1.25rem 1.5rem;
+    }
+
+    .projects__icon {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+    .projects__container {
+        grid-template-columns: max-content;
+    }
+
+    .projects__content {
+        padding-right: 6rem;
+    }
+}
