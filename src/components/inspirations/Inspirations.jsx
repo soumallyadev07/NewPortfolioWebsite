@@ -12,7 +12,7 @@ import 'swiper/css/autoplay';
 
 const Inspirations = () => {
   return (
-    <section className="inspiration container section">
+    <section className="inspiration container section" id="tunes">
       <h2 className="section__title">My Favourite Songs</h2>
       <span className="section__subtitle">Where words leave off, music begins.</span>
 

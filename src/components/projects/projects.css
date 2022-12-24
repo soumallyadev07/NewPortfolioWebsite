@@ -94,15 +94,17 @@
 }
 
 @media screen and (max-width: 576px) {
+    .projects__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .projects__content {
+        margin: 0rem 2.5rem 0rem 2.5rem;
+    }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-    .projects__container {
-        grid-template-columns: max-content;
-    }
-
     .projects__content {
-        padding-right: 6rem;
+        margin: 0rem 2rem 0rem 2rem;
     }
 }

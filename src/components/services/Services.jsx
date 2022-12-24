@@ -80,7 +80,7 @@ const Services = () => {
                             UI/UX Development
                         </h3>
 
-                        <p className="services__modal-description">More than 2 years of experience while working with numerous startups and organizations. Providing quality work and learning with each experience.</p>
+                        <p className="services__modal-description">I always had an afinity for UI and Frontend, I worked on a lot of UI/UX-Based Projects and Internships to Hone my Skills for the same.</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">
@@ -127,7 +127,7 @@ const Services = () => {
                             Product Designing
                         </h3>
 
-                        <p className="services__modal-description">More than 2 years of experience while working with numerous startups and organizations. Providing quality work and learning with each experience.</p>
+                        <p className="services__modal-description">While working with early-stage startups as well as big MNCs, I've solved problems and helped Business achive their goals and created maintainable solutions.</p>
 
                         <ul className="services__modal-services grid">
                             <li className="services__modal-service">

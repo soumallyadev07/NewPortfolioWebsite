@@ -80,7 +80,7 @@ const Contact = () => {
               <span className="contact__card-data">+91-9821706406</span>
 
               <a href="tel:+919821706406" className="contact__button">
-                Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                Drop me a call<i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
@@ -91,7 +91,7 @@ const Contact = () => {
               <span className="contact__card-data">_soumallya_</span>
 
               <a href="https://www.instagram.com/_soumallya_/" className="contact__button">
-                Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+                Follow me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
           </div>
