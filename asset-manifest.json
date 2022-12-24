@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3713041.css",
-    "main.js": "/static/js/main.387e03d9.js",
+    "main.css": "/static/css/main.1894761d.css",
+    "main.js": "/static/js/main.b156e097.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/profile-1-bw.png": "/static/media/profile-1-bw.c831a717578863707776.png",
     "static/media/about-2-bw.png": "/static/media/about-2-bw.38540af92a06dd1e42b3.png",
@@ -18,15 +18,15 @@
     "static/media/heyvax.png": "/static/media/heyvax.1e35bf3257f35a4713fa.png",
     "static/media/artist2.jpg": "/static/media/artist2.09980e5b76d355ec6cfb.jpg",
     "static/media/album1.jpg": "/static/media/album1.79d16238d4566d28b03f.jpg",
-    "static/media/Soumallya_Resume.pdf": "/static/media/Soumallya_Resume.a7ae92799a7f6f5d55b9.pdf",
+    "static/media/Soumallya_Resume.pdf": "/static/media/Soumallya_Resume.f8dcb191899af359deec.pdf",
     "static/media/artist1.jpg": "/static/media/artist1.ed0cde7aca2ed5a660d7.jpg",
     "index.html": "/index.html",
-    "main.a3713041.css.map": "/static/css/main.a3713041.css.map",
-    "main.387e03d9.js.map": "/static/js/main.387e03d9.js.map",
+    "main.1894761d.css.map": "/static/css/main.1894761d.css.map",
+    "main.b156e097.js.map": "/static/js/main.b156e097.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3713041.css",
-    "static/js/main.387e03d9.js"
+    "static/css/main.1894761d.css",
+    "static/js/main.b156e097.js"
   ]
 }
